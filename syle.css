@@ -212,7 +212,10 @@ h4 {
   .top-element {
     width: 100%;
     font-size: 18px;
-    text-align: center;
+    /* text-align: center; */
+  }
+  .top-element::after {
+    left: 350px;
   }
   .name {
     padding-left: 10px;
